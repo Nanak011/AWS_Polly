@@ -39,7 +39,7 @@ Workflow
   * **2.6.** After that, click Next, name this role Poly Translation Role and click Create Role at the bottom.
 
 * **Step three. Configure S3 buckets.**
-  * **3.1.** Search for S 3 and create a bucket.
+  **3.1.** Search for S 3 and create a bucket.
   * **3.2.** In the bucket name field, type a globally unique name for your source storage, such as, source bucket 0.
   * **3.3.** Scroll down to and click Create Bucket.
   * **3.4.** Repeat the process to build destination storage. Type a unique name, such as, destination bucket 0.
@@ -52,7 +52,7 @@ Workflow
   * **4.4.** Under Runtime, select the latest version of Python.
   * **4.5.** Scroll down to the custom setting and in custom execution role, select your Poly Translation Role.
   * **4.6.** Save it and scroll to the bottom right and click the Create Function button. 
-  * Once the page loads, scroll down past the visual diagram to the runtime settings tabs.
+  Once the page loads, scroll down past the visual diagram to the runtime settings tabs.
   * **4.7.** Click on the Configuration tab, then select Environment Variables, then Click the Edit button and Add Environment Variable.
   * **4.8.** In the first Key box, type, SOURCE BUCKET, in all capital letters with an underscore. In its Value box, paste your exact source S3 bucket name.
   * **4.9.** Click Add Environment Variable again. In the second Key box, type, DESTINATION BUCKET, in all capital letters with an underscore. In its Value box, paste your exact destination S3 bucket name and save.
