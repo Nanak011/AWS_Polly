@@ -39,7 +39,7 @@ Workflow
   * **2.6.** After that, click Next, name this role Poly Translation Role and click Create Role at the bottom.
 
 * **Step three. Configure S3 buckets.**
-  **3.1.** Search for S 3 and create a bucket.
+  * **3.1.** Search for S 3 and create a bucket.
   * **3.2.** In the bucket name field, type a globally unique name for your source storage, such as, source bucket 0.
   * **3.3.** Scroll down to and click Create Bucket.
   * **3.4.** Repeat the process to build destination storage. Type a unique name, such as, destination bucket 0.
