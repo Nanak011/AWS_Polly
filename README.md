@@ -84,3 +84,6 @@ Workflow
 * **Lastly, do not forget to clean up your cloud watch logs.**
   * **7.5.** Type CloudWatch into the top search bar, click on Log in the left sidebar, locate the row for your polly translator function, select it, and click Delete. 
   * This is a critical best practice. AWS charges an ongoing monthly storage fee for old logs left sitting in CloudWatch, and leaving them behind exposes information about your old infrastructure patterns. Deleting them ensures your account footprint returns to absolute zero, completely eliminating ongoing security risks and residual bills.
+ 
+
+Link to video: https://www.linkedin.com/posts/gurunanakadhikari_i-built-an-automated-serverless-text-to-speech-ugcPost-7459301524905594880-EgSC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEtEqhwBtd9Rjbr84IsWwWRE8ExCL1UNzXU
